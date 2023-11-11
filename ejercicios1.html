@@ -44,6 +44,27 @@
             color: #666;
         }
 
+        .styled-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 18px;
+            text-align: left;
+        }
+
+        .styled-table th, .styled-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .styled-table th {
+            background-color: #f2f2f2;
+        }
+
+        .styled-table tbody tr:hover {
+            background-color: #f5f5f5;
+        }
+
     </style>
 </head>
 <body>
@@ -51,7 +72,7 @@
     <header>
         <h1>Ejercicios de Gráficos en Excel</h1>
     </header>
-
+<h3>A continuación en base a los siguientes datos realiza los ejercicio es Excel </h3>
     <nav>
         <a href="excel.html">Volver a Excel</a>
     </nav>
@@ -60,7 +81,7 @@
         <article>
             
             <h2>Ejercicio 1: Gráfico de Barras (Producción de Maíz por Año)</h2>
-            <table>
+            <table class="styled-table">
                 <tr>
                   <th>Año</th>
                   <th>Producción de Maíz (Toneladas)</th>
@@ -91,7 +112,7 @@
 
         <article>
             <h2>Ejercicio 2: Gráfico de Líneas (Evolución de la Temperatura)</h2>
-            <table>
+            <table class="styled-table">
                 <tr>
                   <th>Mes</th>
                   <th>Temperatura (°C)</th>
@@ -115,7 +136,7 @@
 
         <article>
             <h2>Ejercicio 3: Gráfico de Pastel (Distribución de Cultivos)</h2>
-            <table>
+            <table class="styled-table">
                 <tr>
                   <th>Cultivo</th>
                   <th>Superficie (Hectáreas)</th>
@@ -139,7 +160,7 @@
 
         <article>
             <h2>Ejercicio 4: Gráfico de Dispersión (Relación Lluvia y Producción de Ganado)</h2>
-            <table>
+            <table class="styled-table">
                 <tr>
                   <th>Mes</th>
                   <th>Lluvia (mm)</th>
